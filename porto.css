@@ -1,0 +1,29 @@
+.social-section{
+    text-align:center;
+}
+
+.socials{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.socials a{
+    min-width:160px;
+    text-align:center;
+    background:#1e293b;
+    padding:15px;
+    border-radius:15px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.socials a:hover{
+    background:#38bdf8;
+    transform:translateY(-5px);
+}
